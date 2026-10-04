@@ -1,0 +1,17 @@
+{
+  "required": false,
+  "package": "dev.chromiumclient.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "LightTextureMixin",
+    "LowFireMixin",
+    "FirstPersonItemMixin",
+    "FogMixin",
+    "NoParticlesMixin",
+    "FreelookMouseMixin",
+    "FreelookCameraMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

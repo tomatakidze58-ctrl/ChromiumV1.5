@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "chromiumclient",
+  "version": "${version}",
+  "name": "ChromiumClient",
+  "description": "A gray Chromium-themed Fabric 26.2 client with a compact PvP HUD, visual controls, movement helpers, waypoints, macros and official companion-mod integrations.",
+  "environment": "client",
+  "icon": "assets/chromiumclient/logo.png",
+  "entrypoints": {
+    "client": ["dev.chromiumclient.ChromiumClient"]
+  },
+  "mixins": ["chromiumclient.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "appleskin": "*",
+    "colorsaturation": "*",
+    "xaerominimap": "*",
+    "skinlayers3d": "*",
+    "chat_heads": "*",
+    "shulkerboxtooltip": "*",
+    "maptip": "*",
+    "tiertagger": "*",
+    "ukulib": "*"
+  }
+}

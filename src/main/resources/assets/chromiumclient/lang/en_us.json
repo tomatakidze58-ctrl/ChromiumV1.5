@@ -1,0 +1,11 @@
+{
+  "key.chromiumclient.menu": "Open ChromiumClient",
+  "key.chromiumclient.hud": "Open Chromium HUD Editor",
+  "key.chromiumclient.freelook": "Chromium Freelook",
+  "key.chromiumclient.waypoint_add": "Add Chromium Waypoint",
+  "key.chromiumclient.waypoint_cycle": "Cycle Chromium Waypoint",
+  "key.chromiumclient.macro1": "Chromium Macro 1",
+  "key.chromiumclient.macro2": "Chromium Macro 2",
+  "key.chromiumclient.macro3": "Chromium Macro 3",
+  "key.chromiumclient.zoom": "Chromium Zoom"
+}
